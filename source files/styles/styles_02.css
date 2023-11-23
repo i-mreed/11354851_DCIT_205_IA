@@ -46,9 +46,9 @@ body {
     border-radius: 20px;
     color: #000000;
     border-radius: 50px;
-    font-size:100%;
+    font-size:100&%;
     box-shadow: 0 8px 16px #153d6f(0, 0, 0, 1.);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
   }
   
   main {
@@ -261,3 +261,75 @@ font-weight: 100;
     font-weight: bold;
   }
   
+  footer {
+    background-color:#153d6f;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .newsletter-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+
+  .subscribe-button {
+    font-size: 15px;
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    color:#153d6f;
+    border: none;
+    background-color:#ffffff;
+    border-radius: 60px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .subscribe-button:hover {
+    opacity: 90%;
+
+  }
+
+  .contact-email-details{
+    display: flex;
+  }
+
+  .contact-details {
+    max-width: 400px;
+    margin-right: 80px;
+    text-align: left;
+  }
+
+  .email-details {
+  text-align: left;
+  }
+
+  .phone{
+    font-size: 12px;
+  }
+
+  .h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .h5{
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .welcome-statement{
+    align-content: center;
+    text-align: center;
+    max-width: fit-content;
+
+  }
