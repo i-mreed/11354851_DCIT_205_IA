@@ -46,7 +46,7 @@ body {
     border-radius: 20px;
     color: #000000;
     border-radius: 50px;
-    font-size:100&%;
+    font-size:100%;
     box-shadow: 0 8px 16px #153d6f(0, 0, 0, 1.);
   transition: 0.5s ease-in-out;
   }
@@ -239,6 +239,7 @@ font-weight: 100;
     display: flex;
     align-items: center;
     margin: 20px;
+    margin-top: 50px;
   }
   
   .image-container {
@@ -330,6 +331,8 @@ font-weight: 100;
   .welcome-statement{
     align-content: center;
     text-align: center;
-    max-width: fit-content;
-
   }
+
+  .welcome{
+margin-top: 20px;
+ }
